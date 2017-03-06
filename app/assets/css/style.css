@@ -1,0 +1,40 @@
+body{
+	padding: 0px !important;
+}
+#content{
+	font-family: 微软雅黑;
+	word-wrap: break-word;
+}
+.ui.menu{
+    border-radius: 0px !important;
+}
+blockquote{
+    border-left: 5px solid #95ea98 !important;
+}
+h1, h2, h3{
+	margin: 3rem 0 3rem 0 !important;
+}
+h1{
+	text-align: center !important;
+}
+h3{
+    border-left: 5px solid #95ea98;
+	padding-left: 1rem;
+}
+
+h2{
+    border-bottom: 1px solid #ccc;
+	padding-bottom: 1rem;
+}
+
+@media (max-width: 768px){
+	#content img{
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px){
+	#content img{
+		width:800px; 
+	}
+}
